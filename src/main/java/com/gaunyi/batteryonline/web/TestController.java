@@ -21,6 +21,7 @@ public class TestController {
     public String echo(){
         return "welcome";
     }
+
     @RequestMapping("/users")
     public String users(){
         List<User> users = userService.findUsers();
